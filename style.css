@@ -1,0 +1,25 @@
+.screen{
+    width: 100%;
+    height: 100vh;
+}
+.bubble-item{
+    position: relative;
+}
+.text-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%,0);
+    text-align: center;
+}
+@keyframes glide{
+    0%{
+        transform: translate3d(1100px,150px,0);
+    }
+    50%{
+        transform: translate3d(-600px,250px,0);
+    }
+    100%{
+        transform: translate3d(400px,-700px,0px);
+    }
+}
